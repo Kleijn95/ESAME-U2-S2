@@ -16,3 +16,15 @@ body {
 body {
   color: #808080;
 }
+
+footer {
+  font-size: 10px;
+}
+
+footer i {
+  font-size: 20px;
+}
+
+footer p:last-of-type {
+  font-size: 8px;
+}
