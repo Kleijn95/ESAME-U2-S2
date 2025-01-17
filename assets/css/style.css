@@ -1,0 +1,18 @@
+#searchForm {
+  transition: all 0.3s ease-in-out;
+}
+.dropdown-menu {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+body {
+  background-color: #141414;
+}
+
+body {
+  color: #808080;
+}
