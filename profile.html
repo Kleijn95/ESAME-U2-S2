@@ -25,12 +25,13 @@
     <div class="container w-50">
 
 
-        <h3 class="mb-4">Edit Profile</h3>
+        <h1 class="display-4 fw-semibold mb-0 text-white">Edit Profile</h1>
         <hr>
         <div class="row">
-            <div class="col col-lg-2">
-                <img src="./assets/img/avatar.png" class="img-fluid rounded border border-10 border-info shadow"
+            <div class="col col-lg-2 ">
+                <img src="./assets/img/avatar.png" class=" img-fluid rounded border border-10 border-info shadow "
                     alt="maldives" />
+
             </div>
             <div class="col col-lg-10">
                 <form>
@@ -38,17 +39,19 @@
 
                         <div class="mb-3">
 
-                            <input type="text" id="disabledTextInput" class="form-control bg-secondary"
+                            <input type="text" id="disabledTextInput" class="form-control bg-secondary "
                                 placeholder="Strive Student">
                         </div>
+                    </fieldset>
                 </form>
-                <p>Language:</p>
+                <p class="mb-1">Language:</p>
                 <div class="btn-group">
-                    <button class="btn btn-secondary btn-sm" type="button">
-                        Italian
-                    </button>
-                    <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
-                        data-bs-toggle="dropdown" aria-expanded="false">
+                    <button type="button"
+                        class="btn border px-2 py-0 rounded-0 border-2 border-end-0 border-white btn-black"
+                        style="color: white;">English</button>
+                    <button type="button"
+                        class="btn btn-black border-2 border-start-0 px-2 py-0 rounded-0 border-white dropdown-toggle dropdown-toggle-split"
+                        style="color: white;" data-bs-toggle="dropdown" aria-expanded="false">
                         <span class="visually-hidden">Toggle Dropdown</span>
                     </button>
                     <ul class="dropdown-menu">
@@ -56,36 +59,42 @@
                         <li><a class="dropdown-item" href="#">Spanish</a></li>
                         <li><a class="dropdown-item" href="#">Russian</a></li>
 
+
                     </ul>
                 </div>
                 <hr>
                 <p class="lead">Maturity Settings</p>
-                <div><button type="button" class="btn btn-primary" disabled>ALL Maturity Settings</button></div>
-                <p class="lead">Show titles of <span style="font-weight: 600;">all maturity settings</span> for this
+                <div><button type="button" class="btn btn-dark fw-bold mb-2" disabled>ALL MATURITY RATINGS</button>
+                </div>
+                <p class="lead text-white">Show titles of <span style="font-weight: 600;">all maturity settings</span>
+                    for this
                     profile</p>
-                <div><button type="button" class="btn btn-outline-primary">EDIT</button></div>
-                <hr>
-                <p>Autoplay Controls</p>
+                <div><button type="button" class="btn mb-2 btn-black rounded-0 border border-1 btn-sm px-3"
+                        style="color: inherit;font-size: 10px;">EDIT</button>
+                </div>
+                <hr class="mb-3">
+                <p class="fs-4 mb-1">Autoplay Controls</p>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
+                    <input class="form-check-input p-2" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label ms-2" for="flexCheckDefault">
                         Autoplay episode on a series on all device
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
+                    <input class="form-check-input p-2" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label ms-2" for="flexCheckDefault">
                         Autoplay previews while browsing on all device
                     </label>
                 </div>
 
 
             </div>
-            <hr>
+            <hr class="mt-3">
             <div style="display: flex; padding:0; gap:1rem">
-                <button type="button" class="btn btn-primary btn-lg ">SAVE</button><button type="button"
-                    class="btn btn-primary btn-lg ">CANCEL</button><button type="button"
-                    class="btn btn-primary btn-lg ">DELETE PROFILE</button>
+                <button type="button"
+                    class="btn  btn-lg bg-white text-black fw-bold rounded-0 border border-1 btn-sm px-4 ">SAVE</button><button
+                    type="button" class="btn   btn-black rounded-0 border border-1  px-3 btn-lg ">CANCEL</button><button
+                    type="button" class="btn btn-black rounded-0 border border-1  px-3 btn-lg">DELETE PROFILE</button>
 
 
             </div>

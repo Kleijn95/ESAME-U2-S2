@@ -28,3 +28,20 @@ footer i {
 footer p:last-of-type {
   font-size: 8px;
 }
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-check-input {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: transparent;
+}
