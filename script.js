@@ -1,4 +1,4 @@
-if (window.location.pathname === "/index.html") {
+if (window.location.pathname === "/index.html" || window.location.pathname === "/account.html") {
   document.getElementById("searchToggle").addEventListener("click", function () {
     const searchForm = document.getElementById("searchForm");
     if (searchForm.classList.contains("d-none")) {

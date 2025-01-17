@@ -45,3 +45,8 @@ hr {
 .form-check-input:checked {
   background-color: transparent;
 }
+
+a {
+  text-decoration-line: none;
+  color: #81b0ef;
+}
